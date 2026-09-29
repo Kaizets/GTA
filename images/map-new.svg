@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+<defs>
+ <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#173b55"/><stop offset="1" stop-color="#07151f"/></linearGradient>
+ <linearGradient id="land" x2="0" y2="1"><stop stop-color="#5f8d4b"/><stop offset="1" stop-color="#2d5330"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity=".35"/></filter>
+</defs>
+<rect width="1600" height="900" fill="url(#sea)"/>
+<!-- island -->
+<path d="M355 55 C500 25 720 55 890 35 C1110 10 1290 85 1360 230 C1415 340 1350 455 1400 570 C1450 700 1370 825 1200 855 L880 875 C690 865 520 820 405 720 C300 625 315 505 350 410 C390 300 285 170 355 55Z" fill="url(#land)" filter="url(#shadow)"/>
+<!-- mountains -->
+<path d="M390 180 L510 85 590 170 680 75 790 175 900 80 1010 180 1110 105 1230 205 1300 320 360 350Z" fill="#3d6338" opacity=".8"/>
+<path d="M420 230 Q620 180 820 250 T1250 220" fill="none" stroke="#9ebc75" stroke-width="8" opacity=".6"/>
+<!-- urban blocks -->
+<path d="M510 465 Q680 370 900 430 T1160 520 Q1120 690 950 745 T610 700 Q500 620 510 465Z" fill="#747b68" opacity=".85"/>
+<path d="M540 490 L1100 545 M525 535 L1130 590 M540 580 L1100 635 M600 445 L610 705 M680 410 L690 730 M770 420 L780 745 M860 425 L865 750 M950 445 L945 730 M1030 470 L1020 700" stroke="#d2c7a0" stroke-width="5" opacity=".75"/>
+<!-- highways -->
+<g fill="none" stroke="#efe6c9" stroke-width="18" stroke-linecap="round">
+ <path d="M430 735 Q620 610 760 535 T1120 180"/>
+ <path d="M380 350 Q620 405 850 420 T1320 610"/>
+ <path d="M690 810 Q760 690 780 535 T760 110"/>
+</g>
+<g fill="none" stroke="#a67b39" stroke-width="7">
+ <path d="M430 735 Q620 610 760 535 T1120 180"/>
+ <path d="M380 350 Q620 405 850 420 T1320 610"/>
+ <path d="M690 810 Q760 690 780 535 T760 110"/>
+</g>
+<!-- secondary roads -->
+<g fill="none" stroke="#d8d0b6" stroke-width="5" opacity=".8">
+ <path d="M430 430 Q650 500 790 480 T1120 350"/>
+ <path d="M470 650 Q650 580 850 620 T1200 700"/>
+ <path d="M560 260 Q680 320 820 280 T1080 300"/>
+ <path d="M900 760 Q980 650 1010 540 T1200 390"/>
+</g>
+<!-- labels -->
+<g font-family="Arial Black,Arial" fill="white">
+ <text x="565" y="570" font-size="52">LOS SANTOS</text>
+ <text x="1030" y="300" font-size="34">VINEWOOD</text>
+ <text x="460" y="270" font-size="32">SANDY SHORES</text>
+ <text x="1110" y="760" font-size="30">PALETO BAY</text>
+ <text x="820" y="120" font-size="28">MT. CHILIAD</text>
+ <text x="1050" y="515" font-size="27">AIRPORT</text>
+</g>
+<!-- pins -->
+<g fill="#e4ff00" stroke="#111" stroke-width="5">
+ <circle cx="700" cy="570" r="13"/><circle cx="1050" cy="300" r="13"/>
+ <circle cx="510" cy="250" r="13"/><circle cx="1140" cy="740" r="13"/>
+</g>
+<rect x="35" y="35" width="340" height="105" rx="12" fill="#050505dd" stroke="#e4ff00" stroke-width="2"/>
+<text x="60" y="78" fill="#e4ff00" font-family="Arial Black,Arial" font-size="30">LOS SANTOS MAP</text>
+<text x="60" y="112" fill="#ddd" font-family="Arial" font-size="17">LOS SANTOS • BLAINE COUNTY</text>
+</svg>

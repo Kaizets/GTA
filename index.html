@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTA V | Los Santos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page-progress" id="pageProgress"></div>
+<div class="site-loader" id="siteLoader" aria-hidden="true">
+  <div class="loader-mark">GTA <span>V</span></div>
+  <div class="loader-bar"><i></i></div>
+  <small>LOADING LOS SANTOS</small>
+</div>
+<div class="cursor-orb" id="cursorOrb"></div>
+
+<header class="navbar">
+    <a href="#home" class="brand">GTA <span>V</span></a>
+
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+    <nav id="nav">
+        <a class="active" href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#characters">CHARACTERS</a>
+        <a href="#map">MAP</a>
+        
+        <a href="#gameplay">GAMEPLAY</a>
+        <a href="#gallery">GALLERY</a>
+        
+    </nav>
+</header>
+
+<main>
+
+<!-- HOME -->
+<section id="home" class="hero hero-photo">
+    <div class="hero-dark"></div>
+    <div class="hero-vignette"></div>
+    <div class="hero-hud hud-left"><span>LOS SANTOS</span><i></i><b>05:42 PM</b></div>
+    <div class="hero-hud hud-right"><span>GTAV / 01</span><i></i><b>LIVE WORLD</b></div>
+    <div class="hero-noise"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-scan"></div>
+    <div class="hero-particles" aria-hidden="true"></div>
+    <div class="hero-corner hero-corner-tl">LS / 001</div>
+    <div class="hero-corner hero-corner-br">ROCKSTAR NORTH / 2013</div>
+
+    <div class="hero-content">
+        <div class="mini-logo">ROCKSTAR GAMES</div>
+        <p class="eyebrow">WELCOME TO</p>
+        
+        <!-- Judul/logo sudah menyatu di foto HOME asli, jadi tidak ditumpuk lagi di depan. -->
+    <div class="hero-stats">
+        <div><b>01</b><span>OPEN WORLD</span></div>
+        <div><b>03</b><span>MAIN CHARACTERS</span></div>
+        <div><b>∞</b><span>POSSIBILITIES</span></div>
+    </div>
+        <div class="hero-meta"><span class="live-dot"></span> LOS SANTOS <i>•</i> 5:42 PM</div>
+    <div class="scroll-cue"><span></span> SCROLL TO EXPLORE</div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about section">
+    <div class="about-image">
+        <img src="images/about.jpg" alt="Los Santos dan Vinewood">
+    </div>
+
+    <div class="about-text">
+        <div class="section-tag">01 — INFORMATION</div>
+        <h2>ABOUT <span>GTA V</span></h2>
+
+        <p>
+            Grand Theft Auto V (GTA V) adalah permainan action-adventure
+            open-world yang dikembangkan oleh Rockstar North dan
+            diterbitkan oleh Rockstar Games.
+        </p>
+
+        <p>
+            Game ini berlatar di dunia fiksi Los Santos dan Blaine County,
+            terinspirasi dari California. Pemain dapat menjelajahi dunia
+            secara bebas, menjalankan misi, menggunakan berbagai kendaraan,
+            serta mengikuti cerita dari tiga karakter utama.
+        </p>
+
+        <div class="facts">
+            <div><b>DEVELOPER</b><span>Rockstar North</span></div>
+            <div><b>PUBLISHER</b><span>Rockstar Games</span></div>
+            <div><b>RELEASE</b><span>17 September 2013</span></div>
+            <div><b>GENRE</b><span>Action-Adventure</span></div>
+            <div><b>PLATFORM</b><span>PC, PS3, PS4, Xbox</span></div>
+        </div>
+    </div>
+</section>
+
+<!-- CHARACTERS -->
+<section id="characters" class="section dark">
+    <div class="section-heading">
+        <div class="section-tag">02 — MAIN CHARACTERS</div>
+        <h2>THE <span>CHARACTERS</span></h2><div class="heading-line"></div>
+        <p>TIGA KARAKTER UTAMA</p>
+    </div>
+
+    <div class="character-grid">
+
+        <article class="character-card michael">
+            <div class="character-overlay">
+                <small>THE STRATEGIST</small>
+                <h3>MICHAEL</h3>
+                <h4>DE SANTA</h4>
+                <ul>
+                    <li>Mantan perampok bank</li>
+                    <li>Cerdas dan berpengalaman</li>
+                    <li>Ahli dalam perencanaan</li>
+                    <li>Memiliki konflik keluarga</li>
+                </ul>
+            </div>
+        </article>
+
+        <article class="character-card franklin">
+            <div class="character-overlay">
+                <small>THE DRIVER</small>
+                <h3>FRANKLIN</h3>
+                <h4>CLINTON</h4>
+                <ul>
+                    <li>Berasal dari Los Santos</li>
+                    <li>Ambisius dan pekerja keras</li>
+                    <li>Ahli mengemudi</li>
+                    <li>Ingin kehidupan lebih baik</li>
+                </ul>
+            </div>
+        </article>
+
+        <article class="character-card trevor">
+            <div class="character-overlay">
+                <small>THE WILD CARD</small>
+                <h3>TREVOR</h3>
+                <h4>PHILIPS</h4>
+                <ul>
+                    <li>Mantan pilot militer</li>
+                    <li>Berani dan impulsif</li>
+                    <li>Sulit diprediksi</li>
+                    <li>Terlibat dunia kriminal</li>
+                </ul>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+<!-- MAP -->
+<section id="map" class="section map-section">
+    <div class="section-heading">
+        <div class="section-tag">03 — EXPLORE</div>
+        <h2>LOS <span>SANTOS MAP</span></h2><div class="heading-line"></div>
+        <p>LOS SANTOS & BLAINE COUNTY</p>
+    </div>
+
+    <div class="map-wrap" id="mapViewport">
+        <div class="map-topbar"><span><i></i> SATELLITE VIEW</span><span>LOS SANTOS / BLAINE COUNTY</span></div>
+        <img id="losSantosMap" src="images/map-HD.jpg" alt="Map Los Santos">
+        <div class="map-controls" aria-label="Map controls">
+            <button id="mapZoomIn" aria-label="Zoom in">+</button>
+            <button id="mapZoomOut" aria-label="Zoom out">−</button>
+            <button id="mapReset" aria-label="Reset map">⌖</button>
+        </div>
+        <div class="map-coordinates">34° 01' N &nbsp; / &nbsp; 118° 14' W</div>
+    </div>
+
+    <div class="location-grid">
+        <div><b>LOS SANTOS</b><span>Kota metropolitan penuh peluang dan kejahatan.</span></div>
+        <div><b>VINEWOOD</b><span>Pusat hiburan, film, dan selebriti.</span></div>
+        <div><b>SANDY SHORES</b><span>Kota kecil di gurun dengan aktivitas ilegal.</span></div>
+        <div><b>PALETO BAY</b><span>Kota kecil di utara dekat pegunungan.</span></div>
+    </div>
+</section>
+
+<!-- STORY -->
+
+
+<!-- GAMEPLAY -->
+<section id="gameplay" class="section dark">
+    <div class="section-heading">
+        <div class="section-tag">04 — EXPERIENCE</div>
+        <h2>GAME<span>PLAY</span></h2><div class="heading-line"></div>
+        <p>WHAT YOU CAN DO IN LOS SANTOS</p>
+    </div>
+
+    <div class="gameplay-intro">
+        <div>
+            <span class="micro-label">LOS SANTOS / EXPERIENCE</span>
+            <h3>PLAY IT YOUR WAY.</h3>
+        </div>
+        <p>Drive. Plan. Explore. Create your own story across a living city built for freedom.</p>
+    </div>
+    <div class="game-grid gameplay-showcase">
+        <article class="game-card">
+            <div class="gameplay-image"><img src="images/gameplay-missions.jpg" alt="GTA V missions"></div>
+            <div class="game-card-content"><strong>01</strong><h3>MISSIONS</h3><p>Selesaikan berbagai misi utama dan sampingan yang menegangkan.</p></div>
+        </article>
+        <article class="game-card">
+            <div class="gameplay-image"><img src="images/gameplay-heists.jpg" alt="GTA V heist"></div>
+            <div class="game-card-content"><strong>02</strong><h3>HEISTS</h3><p>Rencanakan dan jalankan perampokan besar bersama tim.</p></div>
+        </article>
+        <article class="game-card">
+            <div class="gameplay-image"><img src="images/gameplay-vehicles.jpg" alt="GTA V vehicle"></div>
+            <div class="game-card-content"><strong>03</strong><h3>VEHICLES</h3><p>Gunakan berbagai kendaraan darat, laut, dan udara.</p></div>
+        </article>
+        <article class="game-card">
+            <div class="gameplay-image"><img src="images/gameplay-activities.webp" alt="GTA V activities"></div>
+            <div class="game-card-content"><strong>04</strong><h3>ACTIVITIES</h3><p>Main golf, balapan, berburu, gym, dan berbagai aktivitas lainnya.</p></div>
+        </article>
+    </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="section gallery">
+    <div class="gallery-heading">
+        <div>
+            <div class="section-tag">05 — VISUAL</div>
+            <h2>GALLERY</h2>
+        </div>
+        <p>Kumpulan gambar terbaik dari dunia<br>Grand Theft Auto V.</p>
+    </div>
+
+    <div class="gallery-toolbar gallery-toolbar-clean">
+      <div class="gallery-collection-label"><span class="live-dot"></span> LOS SANTOS VISUAL ARCHIVE</div>
+      
+    </div>
+    <div class="gallery-grid gallery-showcase">
+        <article class="gallery-card" data-category="world">
+            <div class="gallery-image"><span class="shot-no">01</span><img src="images/map-HD.jpg" alt="Map San Andreas"></div>
+            <h3>MAP SAN ANDREAS</h3>
+            <span>EXPLORE THE WORLD</span>
+        </article>
+
+        <article class="gallery-card" data-category="city">
+            <div class="gallery-image"><span class="shot-no">02</span><img src="images/story-new-HD.jpg" alt="Welcome to Los Santos"></div>
+            <h3>WELCOME TO LOS SANTOS</h3>
+            <span>LIVE THE LIFE</span>
+        </article>
+
+        <article class="gallery-card" data-category="action">
+            <div class="gallery-image"><span class="shot-no">03</span><img src="images/gallery-heist.webp" alt="GTA V Heist"></div>
+            <h3>THE HEIST BEGINS</h3>
+            <span>PLANNING THE PERFECT SCORE</span>
+        </article>
+
+        <article class="gallery-card" data-category="city">
+            <div class="gallery-image"><span class="shot-no">04</span><img src="images/gallery-los-santos.jpeg" alt="Life in Los Santos"></div>
+            <h3>LIFE IN LOS SANTOS</h3>
+            <span>FAME, MONEY &amp; TROUBLE</span>
+        </article>
+        <article class="gallery-card new-gallery-card" data-category="action">
+            <div class="gallery-image"><span class="shot-no">05</span><img src="images/gallery-action-01.jpg" alt="LOS SANTOS ACTION" loading="lazy"></div>
+            <h3>LOS SANTOS ACTION</h3>
+            <span>LOS SANTOS / GALLERY</span>
+        </article>
+        <article class="gallery-card new-gallery-card" data-category="world">
+            <div class="gallery-image"><span class="shot-no">06</span><img src="images/gallery-action-02.jpg" alt="MOUNTAIN CHASE" loading="lazy"></div>
+            <h3>MOUNTAIN CHASE</h3>
+            <span>LOS SANTOS / GALLERY</span>
+        </article>
+        <article class="gallery-card new-gallery-card" data-category="action">
+            <div class="gallery-image"><span class="shot-no">07</span><img src="images/gallery-action-03.jpg" alt="THE THREE" loading="lazy"></div>
+            <h3>THE THREE</h3>
+            <span>LOS SANTOS / GALLERY</span>
+        </article>
+        <article class="gallery-card new-gallery-card" data-category="action">
+            <div class="gallery-image"><span class="shot-no">08</span><img src="images/gallery-action-04.jpg" alt="FIRE & RESCUE" loading="lazy"></div>
+            <h3>FIRE & RESCUE</h3>
+            <span>LOS SANTOS / GALLERY</span>
+        </article>
+        <article class="gallery-card new-gallery-card" data-category="action">
+            <div class="gallery-image"><span class="shot-no">09</span><img src="images/gallery-action-05.jpg" alt="BUGSTARS CREW" loading="lazy"></div>
+            <h3>BUGSTARS CREW</h3>
+            <span>LOS SANTOS / GALLERY</span>
+        </article>
+        <article class="gallery-card new-gallery-card" data-category="action">
+            <div class="gallery-image"><span class="shot-no">10</span><img src="images/gallery-action-06.jpg" alt="MASKED CREW" loading="lazy"></div>
+            <h3>MASKED CREW</h3>
+            <span>LOS SANTOS / GALLERY</span>
+        </article>
+        <article class="gallery-card new-gallery-card" data-category="world">
+            <div class="gallery-image"><span class="shot-no">11</span><img src="images/gallery-action-07.jpg" alt="HIGH STAKES" loading="lazy"></div>
+            <h3>HIGH STAKES</h3>
+            <span>LOS SANTOS / GALLERY</span>
+        </article>
+        <article class="gallery-card new-gallery-card" data-category="action">
+            <div class="gallery-image"><span class="shot-no">12</span><img src="images/gallery-action-08.jpg" alt="YELLOW CAR ESCAPE" loading="lazy"></div>
+            <h3>YELLOW CAR ESCAPE</h3>
+            <span>LOS SANTOS / GALLERY</span>
+        </article>
+
+    </div>
+</section>
+
+</main>
+<button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+<section class="final-cta">
+    <div class="final-glow"></div>
+    <span class="micro-label">LOS SANTOS / AFTER DARK</span>
+    <h2>THE CITY IS <span>YOURS.</span></h2>
+    <p>One world. Infinite stories.</p>
+    <a class="gold-btn" href="#home">BACK TO TOP ↑</a>
+</section>
+
+<footer class="site-footer">
+    <div class="footer-logo">GTA <span>V</span></div>
+    <p>GTA V Fan Website — School Project</p>
+    <p class="copyright">Grand Theft Auto V is a trademark of Rockstar Games.</p>
+</footer>
+
+<div id="lightbox" class="lightbox" aria-hidden="true">
+  <button class="lightbox-close" aria-label="Close">×</button>
+  <button class="lightbox-nav prev" id="lbPrev" aria-label="Previous">‹</button>
+  <div class="lightbox-frame">
+    <div class="lightbox-kicker" id="lbKicker">LOS SANTOS / GALLERY</div>
+    <img id="lightbox-img" alt="Gallery preview">
+    <div class="lightbox-caption"><strong id="lbTitle">Gallery</strong><span id="lbIndex">01 / 12</span></div>
+  </div>
+  <button class="lightbox-nav next" id="lbNext" aria-label="Next">›</button>
+</div>
+
+
+<script>
+(() => {
+  const $ = (s, r=document) => r.querySelector(s);
+  const $$ = (s, r=document) => [...r.querySelectorAll(s)];
+
+  // Loader
+  window.addEventListener('load', () => {
+    setTimeout(() => $('#siteLoader')?.classList.add('loaded'), 450);
+  });
+
+  // Mobile menu
+  window.toggleMenu = () => $('#nav')?.classList.toggle('show');
+  $$('#nav a').forEach(link => link.addEventListener('click', () => $('#nav')?.classList.remove('show')));
+
+  // Scroll progress + back to top
+  const progress = $('#pageProgress'), toTop = $('#toTop');
+  const updateScroll = () => {
+    const h = document.documentElement.scrollHeight - innerHeight;
+    const p = h > 0 ? (scrollY / h) * 100 : 0;
+    progress.style.width = p + '%';
+    toTop.classList.toggle('show', scrollY > 700);
+  };
+  addEventListener('scroll', updateScroll, {passive:true});
+  updateScroll();
+  toTop.addEventListener('click', () => scrollTo({top:0, behavior:'smooth'}));
+
+  // Active navigation
+  const sections = $$('main section[id]');
+  const links = $$('#nav a');
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        links.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + entry.target.id));
+      }
+    });
+  }, {rootMargin:'-35% 0px -55% 0px'});
+  sections.forEach(s => observer.observe(s));
+
+  // Gallery — all visuals are always shown; category filters removed.
+  const cards = $$('.gallery-card');
+
+  // Premium lightbox with next/previous
+  const lb = $('#lightbox'), lbImg = $('#lightbox-img'), lbTitle = $('#lbTitle'), lbIndex = $('#lbIndex');
+  const lbKicker = $('#lbKicker');
+  let current = 0;
+  function visibleCards() { return cards.filter(c => !c.classList.contains('is-hidden')); }
+  function openLightbox(card) {
+    const list = visibleCards();
+    current = Math.max(0, list.indexOf(card));
+    showLightbox();
+  }
+  function showLightbox() {
+    const list = visibleCards();
+    if (!list.length) return;
+    current = (current + list.length) % list.length;
+    const card = list[current], img = $('img', card);
+    lbImg.src = img.src;
+    lbImg.alt = img.alt;
+    lbTitle.textContent = $('h3', card)?.textContent || img.alt;
+    lbKicker.textContent = $('span', card)?.textContent || 'LOS SANTOS / GALLERY';
+    lbIndex.textContent = String(current + 1).padStart(2,'0') + ' / ' + String(list.length).padStart(2,'0');
+    lb.classList.add('open');
+    lb.setAttribute('aria-hidden','false');
+    document.body.classList.add('no-scroll');
+  }
+  function closeLightbox() {
+    lb.classList.remove('open');
+    lb.setAttribute('aria-hidden','true');
+    document.body.classList.remove('no-scroll');
+  }
+  cards.forEach(card => $('img',card)?.addEventListener('click', () => openLightbox(card)));
+  $('#lbPrev').addEventListener('click', e => {e.stopPropagation(); current--; showLightbox();});
+  $('#lbNext').addEventListener('click', e => {e.stopPropagation(); current++; showLightbox();});
+  $('.lightbox-close').addEventListener('click', closeLightbox);
+  lb.addEventListener('click', e => {if (e.target === lb) closeLightbox();});
+  document.addEventListener('keydown', e => {
+    if (!lb.classList.contains('open')) return;
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') {current--; showLightbox();}
+    if (e.key === 'ArrowRight') {current++; showLightbox();}
+  });
+
+  // Spotlight
+  const root = document.documentElement;
+  addEventListener('pointermove', e => {
+    root.style.setProperty('--mx', e.clientX + 'px');
+    root.style.setProperty('--my', e.clientY + 'px');
+    const orb = $('#cursorOrb');
+    if (orb) {orb.style.transform = `translate3d(${e.clientX-6}px,${e.clientY-6}px,0)`;}
+  }, {passive:true});
+
+  // Gentle 3D tilt
+  $$('.character-card, .game-card, .gallery-card, .location-grid > div').forEach(card => {
+    card.addEventListener('pointermove', e => {
+      const r = card.getBoundingClientRect();
+      const x = (e.clientX-r.left)/r.width-.5, y = (e.clientY-r.top)/r.height-.5;
+      card.style.setProperty('--rx', `${-y*3}deg`);
+      card.style.setProperty('--ry', `${x*3}deg`);
+    });
+    card.addEventListener('pointerleave', () => {
+      card.style.setProperty('--rx','0deg'); card.style.setProperty('--ry','0deg');
+    });
+  });
+
+  // Interactive map zoom / pan-style cinematic controls
+  const mapViewport = $('#mapViewport'), mapImg = $('#losSantosMap');
+  const zoomIn = $('#mapZoomIn'), zoomOut = $('#mapZoomOut'), mapReset = $('#mapReset');
+  let mapScale = 1, mapX = 0, mapY = 0;
+  function renderMap(){ if(!mapImg) return; mapImg.style.transform = `translate3d(${mapX}px,${mapY}px,0) scale(${mapScale})`; }
+  zoomIn?.addEventListener('click',()=>{mapScale=Math.min(2.2,mapScale+.15);renderMap()});
+  zoomOut?.addEventListener('click',()=>{mapScale=Math.max(1,mapScale-.15); if(mapScale===1){mapX=0;mapY=0} renderMap()});
+  mapReset?.addEventListener('click',()=>{mapScale=1;mapX=0;mapY=0;renderMap()});
+  mapViewport?.addEventListener('wheel',e=>{if(Math.abs(e.deltaY)<2)return;e.preventDefault();mapScale=Math.max(1,Math.min(2.2,mapScale+(e.deltaY<0?.08:-.08)));renderMap()},{passive:false});
+
+  // Hero parallax
+  const hero = $('.hero');
+  addEventListener('scroll', () => {
+    if (!hero) return;
+    hero.style.setProperty('--heroShift', Math.min(scrollY * .16, 110) + 'px');
+  }, {passive:true});
+})();
+</script>
+
+
+<script>
+(() => {
+  // Ultra reveal system
+  const revealTargets = [
+    '.section-heading','.about-image','.about-text','.character-grid','.map-wrap','.location-grid','.gameplay-intro','.game-grid','.gallery-heading','.gallery-toolbar','.gallery-grid','.final-cta','.site-footer'
+  ];
+  revealTargets.forEach(sel => document.querySelectorAll(sel).forEach(el => {
+    el.classList.add('reveal-ready');
+    if (['.character-grid','.location-grid','.game-grid','.gallery-grid'].includes(sel)) el.classList.add('stagger');
+  }));
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) { entry.target.classList.add('revealed'); io.unobserve(entry.target); }
+    });
+  }, {threshold:.12, rootMargin:'0px 0px -70px 0px'});
+  document.querySelectorAll('.reveal-ready').forEach(el => io.observe(el));
+
+  // Current Los Santos clock in the hero HUD
+  const clock = document.querySelector('.hero-hud.hud-left b');
+  const updateClock = () => {
+    if (!clock) return;
+    const d = new Date();
+    clock.textContent = d.toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit'});
+  };
+  updateClock(); setInterval(updateClock, 30000);
+
+  // Magnetic micro-interaction for primary buttons
+  document.querySelectorAll('.gold-btn,.ghost-btn,.filter').forEach(btn => {
+    btn.addEventListener('pointermove', e => {
+      if (matchMedia('(pointer:coarse)').matches) return;
+      const r=btn.getBoundingClientRect(); const x=(e.clientX-r.left-r.width/2)*.12; const y=(e.clientY-r.top-r.height/2)*.12;
+      btn.style.transform=`translate(${x}px,${y}px)`;
+    });
+    btn.addEventListener('pointerleave',()=>btn.style.transform='');
+  });
+
+  // Clickable image cards feel like a premium gallery
+  document.querySelectorAll('.gallery-card').forEach(card => {
+    card.setAttribute('tabindex','0');
+    card.addEventListener('keydown', e => { if(e.key==='Enter') card.querySelector('img')?.click(); });
+  });
+})();
+</script>
+
+
+    <div class="omega-command-footer" aria-hidden="true">
+      <span>LOS SANTOS</span><i></i><span>EST. 2013</span><i></i><span>OPEN WORLD ARCHIVE</span>
+    </div>
+    
+<script>
+/* OMEGA PROMAX INTERACTIONS */
+(() => {
+  const root = document.documentElement;
+  const clock = document.getElementById('omegaLiveClock');
+  const setClock = () => {
+    if (clock) clock.textContent = new Date().toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit',second:'2-digit'});
+  };
+  setClock(); setInterval(setClock,1000);
+
+  // Ambient cursor spotlight
+  addEventListener('pointermove', e => {
+    root.style.setProperty('--px', e.clientX+'px');
+    root.style.setProperty('--py', e.clientY+'px');
+  }, {passive:true});
+
+  // Reveal elements elegantly as they enter the viewport
+  const targets = document.querySelectorAll('.section-heading,.about-image,.about-text,.character-card,.game-card,.gallery-card,.map-wrap,.facts > div,.omega-stat');
+  const io = new IntersectionObserver(entries => {
+    entries.forEach((entry,i) => {
+      if (entry.isIntersecting) {
+        entry.target.style.setProperty('--reveal-delay',(i%6)*55+'ms');
+        entry.target.classList.add('omega-visible');
+        io.unobserve(entry.target);
+      }
+    });
+  }, {threshold:.08});
+  targets.forEach(el=>io.observe(el));
+
+  // Subtle 3D cards
+  document.querySelectorAll('.character-card,.game-card,.gallery-card,.facts > div').forEach(card=>{
+    card.addEventListener('pointermove',e=>{
+      const r=card.getBoundingClientRect(), x=(e.clientX-r.left)/r.width-.5, y=(e.clientY-r.top)/r.height-.5;
+      card.style.setProperty('--rx',(-y*2.2)+'deg');
+      card.style.setProperty('--ry',(x*2.2)+'deg');
+    });
+    card.addEventListener('pointerleave',()=>{
+      card.style.setProperty('--rx','0deg');card.style.setProperty('--ry','0deg');
+    });
+  });
+})();
+</script>
+
+</body>
+</html>

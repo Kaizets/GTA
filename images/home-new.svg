@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#17152b"/><stop offset=".45" stop-color="#8d4350"/><stop offset=".72" stop-color="#e17a4c"/><stop offset="1" stop-color="#080a10"/></linearGradient>
+ <radialGradient id="sun"><stop stop-color="#fff2a0"/><stop offset=".35" stop-color="#ffb05d"/><stop offset="1" stop-color="#e66a48" stop-opacity="0"/></radialGradient>
+ <linearGradient id="road" x2="0" y2="1"><stop stop-color="#32333a"/><stop offset="1" stop-color="#06070a"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="14"/></filter>
+</defs>
+<rect width="1920" height="1080" fill="url(#sky)"/>
+<circle cx="410" cy="535" r="230" fill="url(#sun)" filter="url(#glow)"/>
+<circle cx="410" cy="535" r="105" fill="#ffd879"/>
+
+<!-- distant mountains -->
+<path d="M0 500 L180 370 330 465 520 325 700 475 870 340 1040 470 1210 320 1430 470 1610 350 1920 500 V680 H0Z" fill="#292a3b" opacity=".75"/>
+
+<!-- Los Santos skyline -->
+<g fill="#0c1119">
+ <rect x="70" y="440" width="90" height="250"/><rect x="190" y="350" width="120" height="340"/>
+ <rect x="340" y="405" width="85" height="285"/><rect x="455" y="290" width="145" height="400"/>
+ <rect x="630" y="390" width="100" height="300"/><rect x="760" y="240" width="125" height="450"/>
+ <rect x="915" y="330" width="145" height="360"/><rect x="1090" y="260" width="110" height="430"/>
+ <rect x="1230" y="390" width="95" height="300"/><rect x="1360" y="280" width="145" height="410"/>
+ <rect x="1540" y="370" width="110" height="320"/><rect x="1680" y="300" width="150" height="390"/>
+</g>
+
+<!-- windows -->
+<g fill="#ffc95c" opacity=".7">
+<rect x="128" y="320" width="9" height="16"/><rect x="128" y="368" width="9" height="16"/><rect x="128" y="416" width="9" height="16"/><rect x="128" y="464" width="9" height="16"/><rect x="128" y="512" width="9" height="16"/><rect x="128" y="560" width="9" height="16"/><rect x="128" y="608" width="9" height="16"/><rect x="128" y="656" width="9" height="16"/><rect x="204" y="320" width="9" height="16"/><rect x="204" y="368" width="9" height="16"/><rect x="204" y="416" width="9" height="16"/><rect x="204" y="464" width="9" height="16"/><rect x="204" y="512" width="9" height="16"/><rect x="204" y="560" width="9" height="16"/><rect x="204" y="608" width="9" height="16"/><rect x="204" y="656" width="9" height="16"/><rect x="280" y="320" width="9" height="16"/><rect x="280" y="368" width="9" height="16"/><rect x="280" y="416" width="9" height="16"/><rect x="280" y="464" width="9" height="16"/><rect x="280" y="512" width="9" height="16"/><rect x="280" y="560" width="9" height="16"/><rect x="280" y="608" width="9" height="16"/><rect x="280" y="656" width="9" height="16"/><rect x="356" y="320" width="9" height="16"/><rect x="356" y="368" width="9" height="16"/><rect x="356" y="416" width="9" height="16"/><rect x="356" y="464" width="9" height="16"/><rect x="356" y="512" width="9" height="16"/><rect x="356" y="560" width="9" height="16"/><rect x="356" y="608" width="9" height="16"/><rect x="356" y="656" width="9" height="16"/><rect x="432" y="320" width="9" height="16"/><rect x="432" y="368" width="9" height="16"/><rect x="432" y="416" width="9" height="16"/><rect x="432" y="464" width="9" height="16"/><rect x="432" y="512" width="9" height="16"/><rect x="432" y="560" width="9" height="16"/><rect x="432" y="608" width="9" height="16"/><rect x="432" y="656" width="9" height="16"/><rect x="508" y="320" width="9" height="16"/><rect x="508" y="368" width="9" height="16"/><rect x="508" y="416" width="9" height="16"/><rect x="508" y="464" width="9" height="16"/><rect x="508" y="512" width="9" height="16"/><rect x="508" y="560" width="9" height="16"/><rect x="508" y="608" width="9" height="16"/><rect x="508" y="656" width="9" height="16"/><rect x="584" y="320" width="9" height="16"/><rect x="584" y="368" width="9" height="16"/><rect x="584" y="416" width="9" height="16"/><rect x="584" y="464" width="9" height="16"/><rect x="584" y="512" width="9" height="16"/><rect x="584" y="560" width="9" height="16"/><rect x="584" y="608" width="9" height="16"/><rect x="584" y="656" width="9" height="16"/><rect x="660" y="320" width="9" height="16"/><rect x="660" y="368" width="9" height="16"/><rect x="660" y="416" width="9" height="16"/><rect x="660" y="464" width="9" height="16"/><rect x="660" y="512" width="9" height="16"/><rect x="660" y="560" width="9" height="16"/><rect x="660" y="608" width="9" height="16"/><rect x="660" y="656" width="9" height="16"/><rect x="736" y="320" width="9" height="16"/><rect x="736" y="368" width="9" height="16"/><rect x="736" y="416" width="9" height="16"/><rect x="736" y="464" width="9" height="16"/><rect x="736" y="512" width="9" height="16"/><rect x="736" y="560" width="9" height="16"/><rect x="736" y="608" width="9" height="16"/><rect x="736" y="656" width="9" height="16"/><rect x="812" y="320" width="9" height="16"/><rect x="812" y="368" width="9" height="16"/><rect x="812" y="416" width="9" height="16"/><rect x="812" y="464" width="9" height="16"/><rect x="812" y="512" width="9" height="16"/><rect x="812" y="560" width="9" height="16"/><rect x="812" y="608" width="9" height="16"/><rect x="812" y="656" width="9" height="16"/><rect x="888" y="320" width="9" height="16"/><rect x="888" y="368" width="9" height="16"/><rect x="888" y="416" width="9" height="16"/><rect x="888" y="464" width="9" height="16"/><rect x="888" y="512" width="9" height="16"/><rect x="888" y="560" width="9" height="16"/><rect x="888" y="608" width="9" height="16"/><rect x="888" y="656" width="9" height="16"/><rect x="964" y="320" width="9" height="16"/><rect x="964" y="368" width="9" height="16"/><rect x="964" y="416" width="9" height="16"/><rect x="964" y="464" width="9" height="16"/><rect x="964" y="512" width="9" height="16"/><rect x="964" y="560" width="9" height="16"/><rect x="964" y="608" width="9" height="16"/><rect x="964" y="656" width="9" height="16"/><rect x="1040" y="320" width="9" height="16"/><rect x="1040" y="368" width="9" height="16"/><rect x="1040" y="416" width="9" height="16"/><rect x="1040" y="464" width="9" height="16"/><rect x="1040" y="512" width="9" height="16"/><rect x="1040" y="560" width="9" height="16"/><rect x="1040" y="608" width="9" height="16"/><rect x="1040" y="656" width="9" height="16"/><rect x="1116" y="320" width="9" height="16"/><rect x="1116" y="368" width="9" height="16"/><rect x="1116" y="416" width="9" height="16"/><rect x="1116" y="464" width="9" height="16"/><rect x="1116" y="512" width="9" height="16"/><rect x="1116" y="560" width="9" height="16"/><rect x="1116" y="608" width="9" height="16"/><rect x="1116" y="656" width="9" height="16"/><rect x="1192" y="320" width="9" height="16"/><rect x="1192" y="368" width="9" height="16"/><rect x="1192" y="416" width="9" height="16"/><rect x="1192" y="464" width="9" height="16"/><rect x="1192" y="512" width="9" height="16"/><rect x="1192" y="560" width="9" height="16"/><rect x="1192" y="608" width="9" height="16"/><rect x="1192" y="656" width="9" height="16"/><rect x="1268" y="320" width="9" height="16"/><rect x="1268" y="368" width="9" height="16"/><rect x="1268" y="416" width="9" height="16"/><rect x="1268" y="464" width="9" height="16"/><rect x="1268" y="512" width="9" height="16"/><rect x="1268" y="560" width="9" height="16"/><rect x="1268" y="608" width="9" height="16"/><rect x="1268" y="656" width="9" height="16"/><rect x="1344" y="320" width="9" height="16"/><rect x="1344" y="368" width="9" height="16"/><rect x="1344" y="416" width="9" height="16"/><rect x="1344" y="464" width="9" height="16"/><rect x="1344" y="512" width="9" height="16"/><rect x="1344" y="560" width="9" height="16"/><rect x="1344" y="608" width="9" height="16"/><rect x="1344" y="656" width="9" height="16"/><rect x="1420" y="320" width="9" height="16"/><rect x="1420" y="368" width="9" height="16"/><rect x="1420" y="416" width="9" height="16"/><rect x="1420" y="464" width="9" height="16"/><rect x="1420" y="512" width="9" height="16"/><rect x="1420" y="560" width="9" height="16"/><rect x="1420" y="608" width="9" height="16"/><rect x="1420" y="656" width="9" height="16"/><rect x="1496" y="320" width="9" height="16"/><rect x="1496" y="368" width="9" height="16"/><rect x="1496" y="416" width="9" height="16"/><rect x="1496" y="464" width="9" height="16"/><rect x="1496" y="512" width="9" height="16"/><rect x="1496" y="560" width="9" height="16"/><rect x="1496" y="608" width="9" height="16"/><rect x="1496" y="656" width="9" height="16"/><rect x="1572" y="320" width="9" height="16"/><rect x="1572" y="368" width="9" height="16"/><rect x="1572" y="416" width="9" height="16"/><rect x="1572" y="464" width="9" height="16"/><rect x="1572" y="512" width="9" height="16"/><rect x="1572" y="560" width="9" height="16"/><rect x="1572" y="608" width="9" height="16"/><rect x="1572" y="656" width="9" height="16"/><rect x="1648" y="320" width="9" height="16"/><rect x="1648" y="368" width="9" height="16"/><rect x="1648" y="416" width="9" height="16"/><rect x="1648" y="464" width="9" height="16"/><rect x="1648" y="512" width="9" height="16"/><rect x="1648" y="560" width="9" height="16"/><rect x="1648" y="608" width="9" height="16"/><rect x="1648" y="656" width="9" height="16"/><rect x="1724" y="320" width="9" height="16"/><rect x="1724" y="368" width="9" height="16"/><rect x="1724" y="416" width="9" height="16"/><rect x="1724" y="464" width="9" height="16"/><rect x="1724" y="512" width="9" height="16"/><rect x="1724" y="560" width="9" height="16"/><rect x="1724" y="608" width="9" height="16"/><rect x="1724" y="656" width="9" height="16"/><rect x="1800" y="320" width="9" height="16"/><rect x="1800" y="368" width="9" height="16"/><rect x="1800" y="416" width="9" height="16"/><rect x="1800" y="464" width="9" height="16"/><rect x="1800" y="512" width="9" height="16"/><rect x="1800" y="560" width="9" height="16"/><rect x="1800" y="608" width="9" height="16"/><rect x="1800" y="656" width="9" height="16"/>
+</g>
+
+<!-- helicopter -->
+<g fill="#11151b" stroke="#05070a" stroke-width="5">
+ <ellipse cx="275" cy="240" rx="100" ry="35"/>
+ <path d="M205 230 L150 280 L230 295 L310 270Z"/>
+ <path d="M185 220 L80 200" fill="none" stroke-width="9"/>
+ <path d="M80 190 L400 190" fill="none" stroke-width="7"/>
+ <path d="M320 250 L360 300 L420 300" fill="none" stroke-width="9"/>
+</g>
+
+<!-- palm trees -->
+<g stroke="#0a0d10" stroke-width="16" fill="none">
+ <path d="M170 690 Q150 570 170 450"/><path d="M175 455 Q115 405 85 430 M175 455 Q220 390 270 420 M175 455 Q180 380 155 345"/>
+ <path d="M1740 690 Q1720 570 1740 450"/><path d="M1745 455 Q1685 405 1655 430 M1745 455 Q1790 390 1840 420 M1745 455 Q1750 380 1725 345"/>
+</g>
+
+<!-- road -->
+<path d="M0 1080 L500 680 L1420 680 L1920 1080Z" fill="url(#road)"/>
+<path d="M960 1080 L915 690 L1005 690 L1080 1080Z" fill="#d9d1af" opacity=".65"/>
+<path d="M360 1080 L690 700 M1560 1080 L1230 700" stroke="#777" stroke-width="7"/>
+
+<!-- sports car silhouette -->
+<g transform="translate(1370 735)">
+ <path d="M0 140 L90 70 L240 45 L370 85 L470 140 L445 205 L30 205Z" fill="#090b10" stroke="#ff5d35" stroke-width="4"/>
+ <circle cx="105" cy="205" r="38" fill="#030405"/><circle cx="390" cy="205" r="38" fill="#030405"/>
+ <path d="M120 80 L250 65 L335 92 L185 105Z" fill="#242b36"/>
+ <rect x="375" y="135" width="55" height="13" fill="#ff4935"/>
+</g>
+
+<!-- main title -->
+<text x="960" y="190" text-anchor="middle" fill="#fff" font-family="Arial Black,Arial" font-size="92" letter-spacing="2">GRAND THEFT</text>
+<text x="960" y="290" text-anchor="middle" fill="#fff" font-family="Arial Black,Arial" font-size="92">AUTO <tspan fill="#e4ff00">V</tspan></text>
+<text x="960" y="365" text-anchor="middle" fill="#e4ff00" font-family="Arial Black,Arial" font-size="42" font-style="italic">WELCOME TO LOS SANTOS</text>
+<text x="960" y="410" text-anchor="middle" fill="#fff" font-family="Arial" font-size="21" letter-spacing="4">THREE CHARACTERS • ONE CITY • ENDLESS POSSIBILITIES</text>
+
+<!-- subtle frame -->
+<rect x="28" y="28" width="1864" height="1024" fill="none" stroke="#e4ff00" stroke-opacity=".35" stroke-width="2"/>
+</svg>

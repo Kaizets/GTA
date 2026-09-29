@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 650">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#30224d"/><stop offset=".55" stop-color="#d06a4f"/><stop offset="1" stop-color="#080b12"/></linearGradient>
+ <radialGradient id="sun"><stop stop-color="#ffd86a"/><stop offset="1" stop-color="#ff8b4d" stop-opacity="0"/></radialGradient>
+ <linearGradient id="road" x2="0" y2="1"><stop stop-color="#262b31"/><stop offset="1" stop-color="#050609"/></linearGradient>
+</defs>
+<rect width="1600" height="650" fill="url(#sky)"/>
+<circle cx="260" cy="350" r="170" fill="url(#sun)"/>
+<!-- skyline -->
+<g fill="#10151b">
+ <rect x="40" y="310" width="70" height="160"/><rect x="125" y="250" width="95" height="220"/>
+ <rect x="235" y="285" width="60" height="185"/><rect x="310" y="210" width="100" height="260"/>
+ <rect x="430" y="275" width="75" height="195"/><rect x="520" y="185" width="120" height="285"/>
+ <rect x="660" y="245" width="70" height="225"/><rect x="745" y="155" width="95" height="315"/>
+ <rect x="860" y="270" width="90" height="200"/><rect x="970" y="195" width="115" height="275"/>
+ <rect x="1110" y="240" width="75" height="230"/><rect x="1200" y="170" width="125" height="300"/>
+ <rect x="1345" y="270" width="90" height="200"/><rect x="1450" y="225" width="110" height="245"/>
+</g>
+<!-- windows -->
+<g fill="#f0bf58" opacity=".65">
+<rect x="65" y="250" width="8" height="14"/><rect x="65" y="292" width="8" height="14"/><rect x="65" y="334" width="8" height="14"/><rect x="65" y="376" width="8" height="14"/><rect x="65" y="418" width="8" height="14"/><rect x="170" y="250" width="8" height="14"/><rect x="170" y="292" width="8" height="14"/><rect x="170" y="334" width="8" height="14"/><rect x="170" y="376" width="8" height="14"/><rect x="170" y="418" width="8" height="14"/><rect x="275" y="250" width="8" height="14"/><rect x="275" y="292" width="8" height="14"/><rect x="275" y="334" width="8" height="14"/><rect x="275" y="376" width="8" height="14"/><rect x="275" y="418" width="8" height="14"/><rect x="380" y="250" width="8" height="14"/><rect x="380" y="292" width="8" height="14"/><rect x="380" y="334" width="8" height="14"/><rect x="380" y="376" width="8" height="14"/><rect x="380" y="418" width="8" height="14"/><rect x="485" y="250" width="8" height="14"/><rect x="485" y="292" width="8" height="14"/><rect x="485" y="334" width="8" height="14"/><rect x="485" y="376" width="8" height="14"/><rect x="485" y="418" width="8" height="14"/><rect x="590" y="250" width="8" height="14"/><rect x="590" y="292" width="8" height="14"/><rect x="590" y="334" width="8" height="14"/><rect x="590" y="376" width="8" height="14"/><rect x="590" y="418" width="8" height="14"/><rect x="695" y="250" width="8" height="14"/><rect x="695" y="292" width="8" height="14"/><rect x="695" y="334" width="8" height="14"/><rect x="695" y="376" width="8" height="14"/><rect x="695" y="418" width="8" height="14"/><rect x="800" y="250" width="8" height="14"/><rect x="800" y="292" width="8" height="14"/><rect x="800" y="334" width="8" height="14"/><rect x="800" y="376" width="8" height="14"/><rect x="800" y="418" width="8" height="14"/><rect x="905" y="250" width="8" height="14"/><rect x="905" y="292" width="8" height="14"/><rect x="905" y="334" width="8" height="14"/><rect x="905" y="376" width="8" height="14"/><rect x="905" y="418" width="8" height="14"/><rect x="1010" y="250" width="8" height="14"/><rect x="1010" y="292" width="8" height="14"/><rect x="1010" y="334" width="8" height="14"/><rect x="1010" y="376" width="8" height="14"/><rect x="1010" y="418" width="8" height="14"/><rect x="1115" y="250" width="8" height="14"/><rect x="1115" y="292" width="8" height="14"/><rect x="1115" y="334" width="8" height="14"/><rect x="1115" y="376" width="8" height="14"/><rect x="1115" y="418" width="8" height="14"/><rect x="1220" y="250" width="8" height="14"/><rect x="1220" y="292" width="8" height="14"/><rect x="1220" y="334" width="8" height="14"/><rect x="1220" y="376" width="8" height="14"/><rect x="1220" y="418" width="8" height="14"/><rect x="1325" y="250" width="8" height="14"/><rect x="1325" y="292" width="8" height="14"/><rect x="1325" y="334" width="8" height="14"/><rect x="1325" y="376" width="8" height="14"/><rect x="1325" y="418" width="8" height="14"/><rect x="1430" y="250" width="8" height="14"/><rect x="1430" y="292" width="8" height="14"/><rect x="1430" y="334" width="8" height="14"/><rect x="1430" y="376" width="8" height="14"/><rect x="1430" y="418" width="8" height="14"/>
+</g>
+<!-- road -->
+<path d="M0 650 L530 480 L1070 480 L1600 650Z" fill="url(#road)"/>
+<path d="M800 650 L770 485 L830 485 L880 650Z" fill="#d8d4b8" opacity=".55"/>
+<path d="M550 650 L700 490 M1050 650 L900 490" stroke="#777" stroke-width="5"/>
+<!-- three character silhouettes -->
+<g fill="#070809">
+ <path d="M600 520 C580 470 590 410 625 395 C660 410 675 465 660 520 L680 650 L565 650Z"/>
+ <circle cx="627" cy="370" r="35"/>
+ <path d="M790 520 C770 460 785 400 820 390 C855 405 870 465 850 520 L875 650 L755 650Z"/>
+ <circle cx="825" cy="365" r="35"/>
+ <path d="M970 520 C950 470 960 405 995 395 C1030 410 1045 465 1028 520 L1050 650 L935 650Z"/>
+ <circle cx="1000" cy="370" r="35"/>
+</g>
+<!-- title -->
+<text x="1150" y="120" fill="white" font-family="Arial Black,Arial" font-size="50" text-anchor="middle" transform="rotate(-5 1150 120)">LOS SANTOS</text>
+<text x="1150" y="175" fill="#e4ff00" font-family="Arial Black,Arial" font-size="48" text-anchor="middle" transform="rotate(-5 1150 175)">AFTER DARK</text>
+<text x="1150" y="220" fill="#ddd" font-family="Arial" font-size="19" text-anchor="middle">THREE STORIES • ONE CITY • ENDLESS POSSIBILITIES</text>
+</svg>
